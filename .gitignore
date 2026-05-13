@@ -19,3 +19,10 @@ app/google-services.json
 
 # User-specific
 .idea/shelf
+
+# Secrets and Keystores
+*.jks
+*.keystore
+secrets.properties
+keystore.properties
+*.pem
