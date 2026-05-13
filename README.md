@@ -4,6 +4,15 @@ Grama-Angana is a professional Android application designed for efficient commun
 
 ---
 
+## 💡 Problem Statement
+
+**What problem does this project solve?**
+In many rural areas and villages, managing community resources like public halls and tracking funds for local maintenance is often handled manually. This leads to inefficiencies, scheduling conflicts (double-bookings), and a lack of transparency in fund utilization. Villagers struggle to know when the community hall is available for events, and the Panchayat (local government) faces difficulties in coordinating bookings and collecting contributions for village development projects.
+
+Grama-Angana solves this by providing a centralized digital platform where villagers can easily view hall availability, request bookings, and contribute to maintenance funds. Simultaneously, it empowers the Panchayat with a secure admin portal to approve requests, prevent conflicts, and manage community projects transparently.
+
+---
+
 ## 📄 Product Requirements Document (PRD)
 
 ### 🎯 Objective
@@ -75,12 +84,12 @@ graph TD
 
 ---
 
-## 🛠️ Technical Stack
-- **UI Architecture**: Jetpack Compose (Material 3 Village Theme)
+## 🛠️ Technologies Used
+- **Frontend / UI Architecture**: Jetpack Compose (Material 3 Village Theme)
 - **Language**: Kotlin 2.1.0 (KSP 2.0 Support)
-- **Backend**: Firebase Authentication & Firestore (Real-time Streams)
-- **Persistence**: Room Database (Local Caching)
-- **Design Pattern**: MVVM with StateFlow and Repository Pattern
+- **Backend / BaaS**: Firebase Authentication & Firestore (Real-time Streams)
+- **Local Persistence**: Room Database (Local Caching)
+- **Architecture / Design Pattern**: MVVM with StateFlow and Repository Pattern
 
 ---
 
